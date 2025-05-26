@@ -18,7 +18,7 @@ changing a url will then trigger the DOM to be updated as a result
 
 and js (react) and react-router is used to update the page (DOM)
 
-the page is never loaded
+the page is never loaded.
 
 //////////////////////
 storing state in url good because
