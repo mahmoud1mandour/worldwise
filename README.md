@@ -10,8 +10,6 @@ WorldWise is a React application that allows users to track and manage cities th
 - City Management : Add, view, and delete cities from your personal travel log
 - Geolocation : Use your current location to quickly add cities you're currently visiting
 - Travel Notes : Add personal notes and memories for each city you visit
-- Wikipedia Integration : Quick access to Wikipedia information about each city
-- Responsive Design : Works on both desktop and mobile devices
 
 ## Project Structure
 
