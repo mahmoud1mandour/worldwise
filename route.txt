@@ -1,0 +1,47 @@
+route => matching different urls to different ui
+
+means different urls to different react component
+
+when one of those specific urls get visited the corresponding react component will be rendered
+
+React Router => is third party package helped us to route some urls to some ui react component
+
+in react we need third party, but in other frameworks we don't need any third party
+
+Routing allows us to build single-page-application
+
+Application that is executed entirely on the client (browsers)
+
+when the user clicks on a router link, URL is changed
+
+changing a url will then trigger the DOM to be updated as a result
+
+and js (react) and react-router is used to update the page (DOM)
+
+the page is never loaded
+
+//////////////////////
+storing state in url good because
+1- easy way to store a state in global place, accessible to all components in the application
+2- good way to pass data from one page into the next page without storing the data in a temp place
+3- Makes it possible to bookmark and share the page with the exact ui state it had at the time
+
+so URL is an excellent place to store ui state and an alternative to useState in some situations
+
+and to do this we use params or query string
+
+params are good to store data that will be passed to the next page
+query string is good for store global state can be used everywhere
+
+to get the data from the url we use as param (useParams) custom hook provided by react router
+to get data from url as query string we use (useSearchParams) custom hook provided by react router
+
+useNavigate => a custom hook provided by react router helps to navigate from place to place by using the return from useNavigate which is a function we usually call it navigate
+
+using it inside on click like onClick(()=> navigate('form'))
+this will navigate to form
+
+but u can navigate also using declerative way using 
+<Navigate />
+
+it's not used that much now but the most use case for it is inside nested Routes
